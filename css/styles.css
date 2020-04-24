@@ -1,24 +1,37 @@
 body {
   font-family: 'Manrope', sans-serif;
   margin: 0;
-  min-width: 900px;
-  background-color: #EDEDED;
+  min-width: 1200px;
+  background-color: #F7F7F7;
+  color: #363636;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+.goback {
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+
+/* general above  */
+
 a {color: inherit;}
+
 
 /*aboutbox*/
 .aboutbox {
   height: 88vh;
   background-image: url(../images/background-image-about.jpg);
   background-size:cover;
+  min-height: 500px;
 }
-.emptybox{
+.emptybox2{
   height:  20vh;
   width: 100%;
 }
 .abouthead{
-  background-color: hsla(0, 0%, 60%, 0.75);
+  background-color: hsla(0, 0%, 85%, 0.90);
   width: 100%;
   height:120px;
   border-bottom-color: white;
@@ -46,6 +59,11 @@ float: left;
   line-height: 2;
   /* clear: left; */
 }
+.aboutheaderthree{
+  color: white;
+  font-weight: normal;
+  line-height: 1;
+}
 .aboutlinks:link {
   text-decoration: none;
 }
@@ -55,7 +73,29 @@ float: left;
 
 /* what we do  */
 .wwdbox{
-  height: 1000px;
+  height: 87vh;
+  min-height: 600px;
+}
+
+.wwdheaderlink:link{
+  text-decoration: none;
+}
+.wwdheaderlink:hover{
+font-weight: bold;
+}
+
+.emptybox1{
+  height:  1vh;
+  width: 100%;
+}
+.wwwdpoint{
+  background-color: #43587D;
+  margin: 20px auto  auto;
+  height: 8px;
+  width: 8px;
+  border-radius: 8px;
+  border: none;
+  display: block;
 }
 .wwdruler{
   background-color: hsla(0, 0%, 60%, 0.75);
@@ -66,16 +106,77 @@ float: left;
   border: none;
 }
 .wwdhone {
-  font-weight: bold;
+  font-weight: normal;
   color: #43587D;
   text-align: center;
+  padding-top: 0px;
 }
+.wwdtable{
+  margin: 0 15vh 0 15vh;
+}
+.wwdtd {
+  padding: 30px 50px 20px 50px;
+}
+.wwdhtwo {
+  font-weight: lighter;
+
+}
+
+.wwdimage {
+  height: 20vh;
+}
+
+.wwdbutton {
+	-moz-box-shadow: 4px 6px 8px  ;
+	-webkit-box-shadow: 4px 6px 8px  ;
+	box-shadow: 4px 6px 8px  ;
+	background-color:#6DD077;
+	-webkit-border-top-left-radius:2px;
+	-moz-border-radius-topleft:2px;
+	border-top-left-radius:2px;
+	-webkit-border-top-right-radius:2px;
+	-moz-border-radius-topright:2px;
+	border-top-right-radius:2px;
+	-webkit-border-bottom-right-radius:2px;
+	-moz-border-radius-bottomright:2px;
+	border-bottom-right-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	-moz-border-radius-bottomleft:2px;
+	border-bottom-left-radius:2px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:52px;
+	line-height:52px;
+width:173px;
+	text-decoration:none;
+	text-align:center;
+  margin: 0px auto 100px auto;
+  display:block;
+}
+.wwdbutton:hover {
+	background-color:#07b507;
+}
+.wwdbutton:active {
+	position:relative;
+	top:1px;}
+
+.goback {
+  text-align: center;
+  padding:0 0 5px 0;
+}
+
 /*classes for footer*/
 .footerbox {
   background-color: #43587D;
   height: 100px;
   padding: 10px;
   position: relative;
+  margin-top: 30px;
 }
 
 .footertablehead {
@@ -117,10 +218,14 @@ float: left;
   font-size: small;
   padding: 10px 0 0 0;
   margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  /* font-family: 'IBM Plex Sans', sans-serif; */
   font-weight: lighter;
 }
-.goback {
-  margin: 30px auto 0 auto;
-  text-align: center;
+
+
+/* INformation */
+.infoimage {
+  height: 30vh;
+  border-radius: 100%;
+
 }
