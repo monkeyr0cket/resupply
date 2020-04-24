@@ -75,6 +75,7 @@ float: left;
 .wwdbox{
   height: 87vh;
   min-height: 600px;
+  max-height: 1200px;
 }
 
 .wwdheaderlink:link{
