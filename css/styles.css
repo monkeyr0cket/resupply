@@ -75,8 +75,7 @@ float: left;
 
 /* what we do  */
 .wwdbox{
-  height: 87vh;
-  min-height: 600px;
+    min-height: 600px;
 }
 
 .wwdheaderlink:link{
