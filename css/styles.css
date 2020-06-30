@@ -1,7 +1,7 @@
 body {
   font-family: 'Manrope', sans-serif;
   margin: 0;
-  min-width: 840px;
+  min-width: 1100px;
   background-color: #F7F7F7;
   color: #363636;
 }
@@ -24,7 +24,7 @@ a {color: inherit;}
   height: 88vh;
   background-image: url(../images/background-image-about.jpg);
   background-size:cover;
-  min-height: 500px;
+  min-height: 644px;
 }
 .emptybox2{
   height:  20vh;
@@ -39,7 +39,7 @@ a {color: inherit;}
 }
 .aboutlogo{
 margin:auto 0 auto 0;
-padding: 0 0 0 50px;
+padding: 0 50px 70px 50px;
 float: left;
 
 }
@@ -50,7 +50,8 @@ float: left;
   /* text-align: left; */
 }
 .aboutsubbox {
-  padding: 0 0 0 180px;
+  padding: 0 0 30px 180px;
+  background-color: hsla(0, 0%, 80%, 0.90);
   /* logo is 11px right from border */
 }
 
@@ -199,7 +200,7 @@ width:173px;
 }
 
 .footertablehead {
-  color: #80D589;
+  color: #ffffff;
   padding: 0 20px 0 20px
 }
 
