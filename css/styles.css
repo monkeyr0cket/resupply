@@ -39,7 +39,7 @@ a {color: inherit;}
 }
 .aboutlogo{
 margin:auto 0 auto 0;
-padding: 20px 50px 150px 50px;
+padding: 20px 50px 120px 50px;
 float: left;
 
 }
@@ -103,6 +103,7 @@ font-weight: bold;
   display: block;
 
 }
+
 .wwdruler{
   background-color: hsla(0, 0%, 60%, 0.75);
   width: 10%;
