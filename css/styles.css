@@ -51,7 +51,7 @@ float: left;
   /* text-align: left; */
 }
 .aboutsubbox {
-  padding: 0 0 30px 180px;
+  padding: 0 0 15px 180px;
   background-color: hsla(0, 0%, 80%, 0.90);
 
   /* logo is 11px right from border */
@@ -79,6 +79,7 @@ float: left;
 /* what we do  */
 .wwdbox{
     min-height: 600px;
+    padding-bottom: 1px;
 }
 
 .wwdheaderlink:link{
@@ -164,7 +165,7 @@ height:52px;
 width:173px;
 	text-decoration:none;
 	text-align:center;
-  margin: 0px auto 200px auto;
+  margin: 0px auto 90px auto;
   display:block;
 }
 .wwdbutton:hover {
