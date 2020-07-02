@@ -1,7 +1,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
-  min-width: 1100px;
+  min-width: 900px;
   background-color: #F7F7F7;
   color: #363636;
 }
@@ -21,10 +21,10 @@ a {color: inherit;}
 
 /*aboutbox*/
 .aboutbox {
-  height: 88vh;
+
   background-image: url(../images/background-image-about.jpg);
   background-size:cover;
-  min-height: 644px;
+  min-height: 640px;
 }
 .emptybox2{
   height:  20vh;
@@ -39,10 +39,11 @@ a {color: inherit;}
 }
 .aboutlogo{
 margin:auto 0 auto 0;
-padding: 0 50px 70px 50px;
+padding: 20px 50px 150px 50px;
 float: left;
 
 }
+
 .aboutheaderone{
   color: white;
   padding:50px 0 0 0;
@@ -52,6 +53,7 @@ float: left;
 .aboutsubbox {
   padding: 0 0 30px 180px;
   background-color: hsla(0, 0%, 80%, 0.90);
+
   /* logo is 11px right from border */
 }
 
@@ -59,6 +61,7 @@ float: left;
   color: white;
   font-weight: normal;
   line-height: 2;
+  padding-right: 20px;
   /* clear: left; */
 }
 .aboutheaderthree{
@@ -98,6 +101,7 @@ font-weight: bold;
   border-radius: 8px;
   border: none;
   display: block;
+
 }
 .wwdruler{
   background-color: hsla(0, 0%, 60%, 0.75);
@@ -121,6 +125,8 @@ font-weight: bold;
 }
 .wwdhtwo {
   font-weight: lighter;
+  font-size: 1.3em;
+  text-align: justify;
 
 }
 
