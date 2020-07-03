@@ -1,7 +1,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
-  min-width: 900px;
+  min-width: 1212px;
   background-color: #F7F7F7;
   color: #363636;
 }
@@ -24,12 +24,31 @@ a {color: inherit;}
 
   background-image: url(../images/background-image-about.jpg);
   background-size:cover;
-  min-height: 640px;
+
 }
-.emptybox2{
-  height:  20vh;
+.emptybox{
+  height:  166px;
   width: 100%;
   background-color: none;
+  display: block;
+}
+.emptybox2{
+
+  height: 30vh;
+  width: 100%;
+  background-color: none;
+  display: block;
+}
+.emptybox3{
+
+  height: 6vh;
+  width: 100%;
+  background-color: none;
+  display: block;
+}
+.padding{
+  padding-left: 30vh;
+  padding-right: 30vh;
 }
 .abouthead{
   width: 100%;
@@ -37,16 +56,18 @@ a {color: inherit;}
 }
 .aboutlogo{
 margin:auto 0 auto 0;
-padding: 20px 50px 20px 50px;
+padding: 0px 50px 50px 50px;
 float: left;
 
 }
 
 .aboutheaderone{
   color: white;
-  padding:50px 0 15px 0;
-  margin: 0;
-  /* text-align: left; */
+  height:50px;
+  padding-bottom: 20px;
+  text-
+
+
 }
 .aboutsubbox {
 
@@ -55,7 +76,15 @@ float: left;
 
   /* logo is 11px right from border */
 }
+.aboutheadertwofirst {
+  color: white;
+  font-weight: normal;
+  line-height: 2;
+  padding-right: 20px;
+  padding-left: 0px;
 
+  /* clear: left; */
+}
 .aboutheadertwo {
   color: white;
   font-weight: normal;
@@ -79,8 +108,8 @@ float: left;
 
 /* what we do  */
 .wwdbox{
-    min-height: 600px;
-    padding-bottom: 1px;
+
+
 }
 
 .wwdheaderlink:link{
@@ -90,10 +119,8 @@ float: left;
 font-weight: bold;
 }
 
-.emptybox1{
-  height:  1vh;
-  width: 100%;
-  background-color: none;
+.tableheader{
+
 }
 .wwwdpoint{
   background-color: #CDCDCD;
@@ -123,12 +150,14 @@ font-weight: bold;
   height: 6px;
   border-radius: 10px;
   border: none;
+
 }
 .wwdhone {
   font-weight: normal;
   color: #43587D;
   text-align: center;
   padding-top: 0px;
+  font-size: 2em;
 }
 .wwdtable{
   margin: 0 30px 0 30px;
@@ -140,11 +169,16 @@ font-weight: bold;
   font-weight: lighter;
   font-size: 1.3em;
   text-align: justify;
+  padding: 0px 70px 0 70px;
+  line-height: 200%;
+
 
 }
 
 .wwdimage {
   height: 100px;
+  float:left;
+  padding: 30px;
 }
 
 .wwdbutton {
@@ -176,8 +210,9 @@ height:52px;
 width:173px;
 	text-decoration:none;
 	text-align:center;
-  margin: 0px auto 90px auto;
+  margin: 20px auto 90px auto;
   display:block;
+
 }
 .wwdbutton:hover {
 	background-color:#07b507;
