@@ -291,6 +291,7 @@ a {
 .infoimage {
   height: 200px;
   border-radius: 100%;
-  float: left;
+  display: block;
   padding: 30px;
+  margin: 0 auto 0 auto;
 }
