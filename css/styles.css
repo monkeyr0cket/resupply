@@ -117,8 +117,8 @@ a {
 .dot {
   background-color: #CDCDCD;
   margin: 20px auto auto;
-  height: 8px;
-  width: 8px;
+  height: 16px;
+  width: 16px;
   border-radius: 8px;
   border: none;
   display: block;
@@ -128,7 +128,7 @@ a {
 }
 .dotbox{
     margin-top: auto;
-    padding-bottom: 23px;
+    padding-bottom: 99px;
 }
 
 
