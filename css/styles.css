@@ -2,6 +2,7 @@ body {
 font-family: 'Ubuntu', sans-serif;
   margin: 0;
   min-width: 1100px;
+  min-height: 1800px;
   background-color: #F7F7F7;
   color: #363636;
 }
@@ -27,7 +28,7 @@ a {
   position: absolute;
   top:0;
   width:100%;
-  height:372px;
+  height:379px;
   min-width:1100px;
 }
 
@@ -48,6 +49,15 @@ a {
 .padding {
   padding-left: 12%;
   padding-right: 12%;
+}
+.about{
+  font-weight: lighter;
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 3% 12% 13px 12%;
+  line-height: 183%;
+  color: grey;
+  background-color:#F7F7F7;
 
 
 }
@@ -55,7 +65,7 @@ a {
   display:flex;
   flex-direction: column;
   clear: both;
-  min-height: 100vh;
+  min-height: 830px;
   min-width: 1100px;
 
 }
@@ -80,19 +90,21 @@ a {
 
 .menunamefirst {
   color: white;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 2;
   padding-right: 20px;
   padding-left: 0px;
+  font-size: 1.5em;
   /* clear: left; */
 }
 
 .menuname {
   color: white;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 2;
   padding-right: 20px;
   padding-left: 20px;
+  font-size: 1.5em;
   /* clear: left; */
 }
 
@@ -128,7 +140,7 @@ a {
 }
 .dotbox{
     margin-top: auto;
-    padding-bottom: 99px;
+    padding-bottom: 3%;
 }
 
 
