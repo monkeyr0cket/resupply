@@ -1,0 +1,12 @@
+User-agent: googlebot
+Disallow: https://resupp.ly/legalnotice.html
+Disallow: https://resupp.ly/disclaimer.html
+Disallow: https://resupp.ly/impressum.html
+Disallow: https://resupp.ly/images/agency.png
+Disallow: https://resupp.ly/images/background-image-about.jpg
+Disallow: https://resupp.ly/imagesimages/concept.svg
+Disallow: https://resupp.lyimages/davidm.JPG
+Disallow: https://resupp.lyimages/halde.png
+Disallow: https://resupp.lyimages/recycle.png
+Disallow: https://resupp.ly/readme.md
+Disallow: https://resupp.ly/robots.txt
