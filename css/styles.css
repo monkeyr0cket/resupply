@@ -174,10 +174,10 @@ a {
 
 .text {
   font-weight: lighter;
-  font-size: 1.15em;
+  font-size: 1.2em;
   text-align: justify;
   padding: 0px 70px 0 70px;
-  line-height: 120%;
+  line-height: 183%;
 }
 
 .image {
@@ -215,7 +215,7 @@ a {
   width: 173px;
   text-decoration: none;
   text-align: center;
-  margin: 20px auto 90px auto;
+  margin: 20px 20px  90px 20px;
 
 }
 
