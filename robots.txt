@@ -1,7 +1,7 @@
 User-agent: googlebot
 Disallow: https://resupp.ly/legalnotice.html
 Disallow: https://resupp.ly/disclaimer.html
-Disallow: https://resupp.ly/impressum.html
+Allow: https://resupp.ly/impressum.html
 Disallow: https://resupp.ly/images/agency.png
 Disallow: https://resupp.ly/images/background-image-about.jpg
 Disallow: https://resupp.ly/imagesimages/concept.svg
@@ -10,4 +10,9 @@ Disallow: https://resupp.lyimages/halde.png
 Disallow: https://resupp.lyimages/recycle.png
 Disallow: https://resupp.ly/readme.md
 Disallow: https://resupp.ly/robots.txt
-Disallow: https://resupp.ly/sitemap.xml
+Sitemap: https://resupp.ly/sitemap.xml
+Allow: https://resupp.ly/
+Allow: https://resupp.ly/#section-consulting
+Allow: https://resupp.ly/#section-agency
+Allow: https://resupp.ly/#section-PSL
+Allow: https://resupp.ly/information.html
