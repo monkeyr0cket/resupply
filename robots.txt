@@ -10,3 +10,4 @@ Disallow: https://resupp.lyimages/halde.png
 Disallow: https://resupp.lyimages/recycle.png
 Disallow: https://resupp.ly/readme.md
 Disallow: https://resupp.ly/robots.txt
+Disallow: https://resupp.ly/sitemap.xml
