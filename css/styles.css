@@ -11,10 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.goback {
-  margin: 30px auto 0 auto;
-  text-align: center;
-}
 
 /* general above  */
 a {
@@ -278,10 +274,7 @@ a {
   /* onmousewheel=""; */
 }
 
-.goback {
-  text-align: center;
-  padding: 0 0 5px 0;
-}
+
 
 /*classes for footer*/
 .footerbox {
@@ -342,4 +335,8 @@ a {
   display: block;
   padding: 30px;
   margin: 0 auto 0 auto;
+}
+
+.goback {
+  text-align: center; margin-bottom: 13%;
 }
