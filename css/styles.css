@@ -52,6 +52,7 @@ a {
   padding-left: 12%;
   padding-right: 12%;
 }
+
 .about{
   font-weight: lighter;
   font-size: 1.2em;
@@ -78,6 +79,16 @@ a {
   float: left;
 }
 
+.logosmall {
+  padding: 0px 50px 0px 50px;
+  width: 96px;
+
+}
+
+.tablecenter{
+  margin-left: auto;
+  margin-right:auto;
+}
 .title {
   color: white;
   height: 50px;
@@ -152,7 +163,14 @@ a {
     padding-bottom: 3%;
 }
 
-
+.tothetop{
+  text-align:right;
+  
+  padding-right: 10%;
+}
+.arrow {
+  width: 20px;
+}
 .menudot {
   background-color: white;
   height: 8px;
@@ -187,6 +205,14 @@ a {
   padding: 0px 70px 0 70px;
   line-height: 183%;
 }
+.centertext {
+  font-weight: lighter;
+  font-size: 1.2em;
+  text-align:center;
+  padding: 0px 70px 0 70px;
+  line-height: 183%;
+}
+
 
 .image {
   height: 159px;
@@ -278,11 +304,11 @@ a {
   font-weight: lighter;
 }
 
-.footerlinks:link {
+.hiddenlinks:link {
   text-decoration: none;
 }
 
-.footerlinks:hover {
+.hiddenlinks:hover {
   text-decoration: underline;
 }
 
